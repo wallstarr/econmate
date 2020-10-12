@@ -11,7 +11,7 @@ import SwiftUI
 struct ib_econ_appApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomeView()
         }
     }
 }

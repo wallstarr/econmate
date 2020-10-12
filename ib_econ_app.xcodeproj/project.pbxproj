@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		025B2A6225341D4700F32988 /* TopicButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025B2A6125341D4700F32988 /* TopicButton.swift */; };
+		025B2A6725345D5500F32988 /* TopicScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025B2A6625345D5500F32988 /* TopicScrollView.swift */; };
 		02DD600A2534053E001FB60D /* ib_econ_appApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02DD60092534053E001FB60D /* ib_econ_appApp.swift */; };
-		02DD600C2534053E001FB60D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02DD600B2534053E001FB60D /* ContentView.swift */; };
+		02DD600C2534053E001FB60D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02DD600B2534053E001FB60D /* HomeView.swift */; };
 		02DD600E2534053F001FB60D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02DD600D2534053F001FB60D /* Assets.xcassets */; };
 		02DD60112534053F001FB60D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02DD60102534053F001FB60D /* Preview Assets.xcassets */; };
 		02DD601C2534053F001FB60D /* ib_econ_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02DD601B2534053F001FB60D /* ib_econ_appTests.swift */; };
@@ -33,9 +35,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		025B2A6125341D4700F32988 /* TopicButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicButton.swift; sourceTree = "<group>"; };
+		025B2A6625345D5500F32988 /* TopicScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicScrollView.swift; sourceTree = "<group>"; };
 		02DD60062534053E001FB60D /* ib_econ_app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ib_econ_app.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		02DD60092534053E001FB60D /* ib_econ_appApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ib_econ_appApp.swift; sourceTree = "<group>"; };
-		02DD600B2534053E001FB60D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		02DD600B2534053E001FB60D /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		02DD600D2534053F001FB60D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		02DD60102534053F001FB60D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		02DD60122534053F001FB60D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -72,6 +76,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		025B2A6B2534606200F32988 /* Supporting Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Supporting Views";
+			sourceTree = "<group>";
+		};
 		02DD5FFD2534053E001FB60D = {
 			isa = PBXGroup;
 			children = (
@@ -95,9 +106,12 @@
 		02DD60082534053E001FB60D /* ib_econ_app */ = {
 			isa = PBXGroup;
 			children = (
+				025B2A6B2534606200F32988 /* Supporting Views */,
 				02DD60092534053E001FB60D /* ib_econ_appApp.swift */,
-				02DD600B2534053E001FB60D /* ContentView.swift */,
+				02DD600B2534053E001FB60D /* HomeView.swift */,
 				02DD600D2534053F001FB60D /* Assets.xcassets */,
+				025B2A6625345D5500F32988 /* TopicScrollView.swift */,
+				025B2A6125341D4700F32988 /* TopicButton.swift */,
 				02DD60122534053F001FB60D /* Info.plist */,
 				02DD600F2534053F001FB60D /* Preview Content */,
 			);
@@ -259,7 +273,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				02DD600C2534053E001FB60D /* ContentView.swift in Sources */,
+				02DD600C2534053E001FB60D /* HomeView.swift in Sources */,
+				025B2A6725345D5500F32988 /* TopicScrollView.swift in Sources */,
+				025B2A6225341D4700F32988 /* TopicButton.swift in Sources */,
 				02DD600A2534053E001FB60D /* ib_econ_appApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
